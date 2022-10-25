@@ -8,4 +8,4 @@ var argv = require('optimist')
   })
   .argv;
 
-require('../index')(argv.target, argv.port);
+require('../index')("http://localhost:3000", 3001);
